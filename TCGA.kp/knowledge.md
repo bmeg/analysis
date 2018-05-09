@@ -8,7 +8,7 @@ tags:
 - mutations
 - mc3
 created_at: 2018-05-09 00:00:00
-updated_at: 2018-05-09 11:22:53.218510
+updated_at: 2018-05-09 11:25:12.089860
 tldr: Find the number of mutations per gene for TCGA cohort
 ---
 ```python
