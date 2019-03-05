@@ -9,5 +9,7 @@ for i in *.ipynb; do
   if [ ! -e build ]; then
     mkdir build/$b
   fi
-  jupyter nbconvert --to markdown ${i} --output-dir build/$b --output _index.md
+  jupyter nbconvert --to markdown ${i} --output-dir build/ # $b --output _index.md
 done
+
+touch build/_index.md
